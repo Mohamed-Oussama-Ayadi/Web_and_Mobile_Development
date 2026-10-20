@@ -1,0 +1,74 @@
+cterminal :  code . -> tlem ll fichier fel dossier heka
+#html
+structure de html
+1-header: entete ->logo wel esem
+2- body: contenu mtaa site web
+3-footer : heya taref loutaneya mtaa site mathalan fli feha about us
+footer ken vech n7otha f weset div najem n7ptha fel body si nn n7otha toul mbaa l body
+ meta charset"UTF-8" ay langue
+tekteb titre men bin tague <title> test</title>
+fel body fama 
+h1  naamel beha titre -> hedhi akber taille  w khochen mteeha
+h2 
+h3
+h4
+h5
+h6
+->> taille
+<div> t9asem site web wtnadhmou
+<p> par exemple bech nfasarlou lhaja heki chneya
+- <!Doctype html>: ekher mise à jour saret mtaa html
+<html> haka ma7loula
+</html> haka msakra
+<div  class="nekteb chnawa n7eb mathalan partie 1">  
+</div>
+n7eb nzid wa7da okhra nekteb nafess eli ktebtou fel class
+<div id="par"> unique mtaa partie wahda nheb nbadel feha haja -> moch dima nestaamlouha
+-n7eb nlem 9adeh men div maa baadhhom naamel div kbira tlemhom lkol nselectionehom w naamel ctrl+ x
+-mafamech div tebda msayba dima nzidou class w n7otou titre lhaja heki
+tableau :< tr>      "tr" temchi mel ysar lel ymin  
+     <th>horizental</th>
+</tr>
+< tr>  
+     <td>vertical</td>
+</tr>
+liste feha des num <ol>
+bech taamel tick fel tableau  <input type=checkbox">
+<input type="texte"> zone de texte
+drop_down list->  liste eli tahbet : <select>
+<textarea> : zone kbira bech tekteb feha texte
+<img src="" alt="img">  : image
+alt ken l'image matekhdemech nthabtou menha
+   <body style="background-image:url(backgroung.gif)> : background
+<iframe src"url title="description"></iframe>: affichage mtaa browser support
+<!-- ...--> taamel commentaire yaani kima fel c haja n7ebouch nfaskhouha nsakrouha
+  njibou video: <video src""></video>
+              audio :<audio src ""></audio>
+svg format xml
+<canvas>  draw graphics
+slide control : range
+<meter>  disque m3ebi wala lee 
+<nav> navigation link
+<aside>
+ 
+///
+Ctrl+C : copier
+Ctrl+X : couper
+Ctrl+V : coller
+Ctrl+Z : annuler
+Ctrl+Y : rétablir
+Ctrl+A : tout sélectionner
+Ctrl+P : imprimer
+///
+#CSS
+fichier kel aada nsamiwouh style.css : par defaut
+bech norbot html bel css : fel head  ta7et ekher meta naamlou <link rel"stylesheet" href="esem l fichier mtei">
+h1{ color : red;}
+#titre 2{ color: black;} matjich khater # tji ken lel id
+.titre 2 h1 { color: black;} bech yaaref anehi
+
+
+workshop 2
+docplanner group site: https://www.docplanner.com/
+ hata lel loutani barka l mourab3at  eli maktoub feha for patients  lee w logo lee bech naamlouh howa bidou 
+jomla lekhra "we ...." bel id

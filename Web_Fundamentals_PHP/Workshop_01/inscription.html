@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+<body>
+    
+    <h2>Inscription</h2>
+    <form>
+     <div>
+        <label for="name">Nom</label>
+     <input type="text" id="name" name="name" minlength="3" maxlength="20" size="10" >
+    </div>
+    <div>
+     <label for=" prenom">prenom</label>
+     <input type="text" id=" prenom" last name=" prenom" minlength="3" maxlength="20" size="10" >
+    </div>
+    <div>
+        <label for="name">sexe</label>
+        <label> <input type="radio"  name="genre" value="f" checked >Femme</label>
+        <label> <input type="radio" name="genre" value="h" checked >Homme</label>
+    </div>
+    <div>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="20" rows="10"></textarea>
+    </div>
+    <div>
+       <label for="Phone Number">Phone Number *</label>
+       <input type="number" step="" min="0" max="99999999" required>
+       <br><br>
+    </div>
+    <div>
+        <label for="date of birth">Date of birth</label>
+        <input type="month" placeholder="mm/dd/yyyy">
+    </div>
+    <div>
+        <label for="passeword">Passeword *</label>
+     <input type="password" id="passeword" name="passeword" minlength="3" maxlength="20" size="10" >
+    </div>
+    <div>
+        <label for="confirm passeword">Confirm Passeword *</label>
+     <input type="password" id="confirm passeword" name="confirm passeword" minlength="3" maxlength="20" size="10" >
+    </div>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+   <hr>
+    <footer>
+        <h3>Contact Us</h3>
+        <div align="right"><p>No Where Street</p></div>
+        <a href= "email:esprit@esprit.tn">email:esprit@esprit.tn</a>
+      </footer>
+</body>
+</html>

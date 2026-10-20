@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    
+    
+</head>
+<body>
+    <header>
+        <a href ="acceuil.html">Home</a>
+        <a href ="https://www.courses.tn">Courses</a>
+        <a href ="https://www.coach.tn">Coach</a>
+        <a href ="inscription.html"> Inscription</a> 
+    </header>
+    <hr>
+    <img src="img1.jpg" alt="salle de sport" height="350" width="1150">
+    <hr>
+    <h2>Inscription</h2>
+    <form action="vérification" onsubmit="return verifier()">
+     <div>
+        <label for="name">First Name *</label>
+     <input type="text" id="name" name="name" minlength="3" maxlength="20" size="10" onkeyup="nameValidation()" >
+    </div>
+    <td id="erreur1"></td>
+    <div>
+     <label for=" last name">Last Name</label>
+     <input type="text" id=" lastname" last name=" last name" minlength="3" maxlength="20" size="10" >
+    </div>
+    <td id="erreur2"></td>
+    <div>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="20" rows="10"></textarea>
+    </div>
+    <div>
+       <label for="Phone Number">Phone Number *</label>
+       <input type="number"  id="phone" step="" min="0" max="99999999" required>
+       <br><br>
+    </div>
+    <td id="erreur3"></td>
+    <div>
+        <label for="date of birth">Date of birth</label>
+        <input type="month" placeholder="mm/dd/yyyy">
+    </div>
+    <div>
+        <label for="passeword">Password *</label>
+     <input type="password" id="password" name="password" minlength="3" maxlength="20" size="10" required placeholder="Password"
+     title="doit contenir au moins une miniscule une majuscule un chiffre et symbole" >
+    </div>
+    <td id="erreur4"></td>
+    <div>
+        <label for="confirmpassword">Confirm Paseword *</label>
+     <input type="password" id="confirmpassword" name="confirm password" minlength="3" maxlength="20" size="10"required
+     placeholder="Confirm Password"> 
+    </div>
+
+     <input type="submit" value="Submit" onclick="passValidation ()">
+        <input type="reset" value="Reset">
+        <div id="erreur5"></div>
+    </form>
+   <hr>
+   <footer>
+    <h3>Contact Us</h3>
+    <div align="right"><p>No Where Street</p></div>
+    <a href= "email:esprit@esprit.tn">email:esprit@esprit.tn</a>
+  </footer>
+  <script src="inscription.js"></script>
+</html>
