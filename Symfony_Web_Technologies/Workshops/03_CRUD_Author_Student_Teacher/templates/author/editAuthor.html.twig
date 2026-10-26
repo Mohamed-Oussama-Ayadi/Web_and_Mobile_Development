@@ -1,0 +1,15 @@
+{# templates/author/editAuthor.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Edit Author</h1>
+
+    {{ form_start(form) }}
+    {{ form_row(form.username) }}
+    {{ form_row(form.email) }}
+    <button type="submit">Save Changes</button>
+    {{ form_end(form) }}
+
+    <a href="{{ path('list_auth') }}">Back to List</a>
+{% endblock %}

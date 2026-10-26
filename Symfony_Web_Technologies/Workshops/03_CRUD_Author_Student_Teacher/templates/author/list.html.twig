@@ -1,0 +1,24 @@
+{# templates/author/list.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des auteurs</title>
+</head>
+<body>
+    <h1>Liste des auteurs</h1>
+
+    {% for author in authors %}
+        <div>
+            <h2>{{ author.username }}</h2>
+            <img src="{{ asset(author.picture) }}" alt="{{ author.username }}" style="max-width: 100px;">
+            <p>Email: {{ author.email }}</p>
+            <p>Nombre de livres : {{ author.nb_books }}</p>
+            <p>
+                <a href="{{ path('author_details_new', {'id': author.id}) }}">Details</a>
+            </p>
+        </div>
+    {% endfor %}
+
+</body>
+</html>

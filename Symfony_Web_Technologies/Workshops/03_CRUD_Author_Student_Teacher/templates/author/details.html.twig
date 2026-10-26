@@ -1,0 +1,22 @@
+{# templates/author/details.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Détails de l'auteur</title>
+</head>
+<body>
+    <h1>Détails de l'auteur</h1>
+
+    <p>ID : {{ author.id }}</p>
+    <p>Nom d'utilisateur : {{ author.username }}</p>
+    <p>Email : {{ author.email }}</p>
+    <p>Nombre de livres : {{ author.nb_books }}</p>
+ <img src="{{ asset('images/' ~ author.picture) }}" alt="{{ author.username }}" style="max-width: 100px;">
+
+
+
+    {# Ajoutez d'autres détails de l'auteur en fonction de votre modèle #}
+
+</body>
+</html>

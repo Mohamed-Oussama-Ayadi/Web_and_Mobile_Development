@@ -1,0 +1,18 @@
+{# templates/author/showAuthor.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Détails de l'auteur</title>
+</head>
+<body>
+    <h1>Détails de l'auteur</h1>
+
+    <p>Nom : {{ author.username }}</p>
+    <p>Email : {{ author.email }}</p>
+    <p>Photo : <img src="{{ author.picture }}" alt="{{ author.username }}"></p>
+    <p>Nombre de livres : {{ author.nb_books }}</p>
+    <!-- Ajoutez d'autres champs de l'auteur selon vos besoins -->
+
+</body>
+</html>

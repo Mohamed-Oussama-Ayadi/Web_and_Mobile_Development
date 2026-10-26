@@ -1,0 +1,41 @@
+# config/routes.yaml
+
+student_index:
+    path: /students
+    controller: 'App\Controller\StudentController::index'
+
+teacher_show:
+    path: /teacher/{name}
+    controller: 'App\Controller\TeacherController::showTeacher'
+
+teacher_go_to_index:
+    path: /teacher/goToIndex
+    controller: 'App\Controller\TeacherController::goToIndex'
+
+show_author:
+    path: /show-author/{name}
+    controller: 'App\Controller\AuthorController::showAuthor'
+
+author_details_new:
+    path: /authors/author-details/{id}
+    controller: 'App\Controller\AuthorController::authorDetails'
+
+list_auth:
+    path: /listAuth
+    controller: 'App\Controller\AuthorController::fetchAuthor'
+    methods: GET
+
+add_auth:
+    path: /addAuth
+    controller: 'App\Controller\AuthorController::addAuthor'
+    methods: GET
+app_add_author_form:
+    path: /addAuthorForm
+    controller: 'App\Controller\AuthorController::addAuthorForm'
+edit_author:
+    path: /editAuthor/{id}
+    controller: 'App\Controller\AuthorController::editAuthor'
+
+delete_author:
+    path: /deleteAuthor/{id}
+    controller: 'App\Controller\AuthorController::deleteAuthor'
